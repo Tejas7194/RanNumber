@@ -1,0 +1,11 @@
+framework module SampleSdk {
+  umbrella header "SampleSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module SampleSdk.Swift {
+    header "SampleSdk-Swift.h"
+    requires objc
+}
