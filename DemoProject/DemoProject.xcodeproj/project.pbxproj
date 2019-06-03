@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		965D7B0F2297ECBE0077991A /* SampleSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965D7B0E2297ECBE0077991A /* SampleSdk.framework */; };
+		965D7B102297ECCB0077991A /* SampleSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965D7B0E2297ECBE0077991A /* SampleSdk.framework */; };
+		965D7B112297ECCB0077991A /* SampleSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 965D7B0E2297ECBE0077991A /* SampleSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		96E5D85E229534E1007E9CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5D85D229534E1007E9CB6 /* AppDelegate.swift */; };
 		96E5D860229534E1007E9CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5D85F229534E1007E9CB6 /* ViewController.swift */; };
 		96E5D863229534E1007E9CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5D861229534E1007E9CB6 /* Main.storyboard */; };
 		96E5D865229534EB007E9CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96E5D864229534EB007E9CB6 /* Assets.xcassets */; };
 		96E5D868229534EB007E9CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5D866229534EB007E9CB6 /* LaunchScreen.storyboard */; };
-		96E5D88C22954D7D007E9CB6 /* SampleSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5D88B22954D7D007E9CB6 /* SampleSdk.framework */; };
-		96E5D88D22954FAC007E9CB6 /* SampleSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5D88B22954D7D007E9CB6 /* SampleSdk.framework */; };
-		96E5D88E22954FAC007E9CB6 /* SampleSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5D88B22954D7D007E9CB6 /* SampleSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				96E5D88E22954FAC007E9CB6 /* SampleSdk.framework in Embed Frameworks */,
+				965D7B112297ECCB0077991A /* SampleSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		965D7B0E2297ECBE0077991A /* SampleSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SampleSdk.framework; sourceTree = "<group>"; };
 		96E5D85A229534E1007E9CB6 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5D85D229534E1007E9CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E5D85F229534E1007E9CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		96E5D864229534EB007E9CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96E5D867229534EB007E9CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96E5D869229534EB007E9CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96E5D88B22954D7D007E9CB6 /* SampleSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SampleSdk.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96E5D88C22954D7D007E9CB6 /* SampleSdk.framework in Frameworks */,
-				96E5D88D22954FAC007E9CB6 /* SampleSdk.framework in Frameworks */,
+				965D7B0F2297ECBE0077991A /* SampleSdk.framework in Frameworks */,
+				965D7B102297ECCB0077991A /* SampleSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		96E5D851229534E1007E9CB6 = {
 			isa = PBXGroup;
 			children = (
-				96E5D88B22954D7D007E9CB6 /* SampleSdk.framework */,
+				965D7B0E2297ECBE0077991A /* SampleSdk.framework */,
 				96E5D85C229534E1007E9CB6 /* DemoProject */,
 				96E5D85B229534E1007E9CB6 /* Products */,
 			);
@@ -305,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QJYFKE7B53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -315,9 +315,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lnt.Ripple12.DemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vb.testappli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = TestApplication;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QJYFKE7B53;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -338,9 +338,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lnt.Ripple12.DemoProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vb.testappli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = TestApplication;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

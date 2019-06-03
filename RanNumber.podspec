@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RanNumber"
-  spec.version      = "1.0.1"
+  spec.version      = "2.0.0"
   spec.summary      = "Ran Number"
   spec.description  = "It Gives Random Number"
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Tejas" => "todkartejas20@gmail.com" }
   spec.platform     = :ios
   spec.ios.deployment_target = "10.0"
-  spec.source       = { :git => "https://github.com/Tejas7194/RanNumber.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/Tejas7194/RanNumber.git", :tag => "2.0.0" }
   spec.source_files  = "SampleSDK/**/*"
   spec.requires_arc = true
   spec.framework = "UIKit"
